@@ -6,7 +6,7 @@ describe('dummyTest', () => {
         expect(true).toBe(true)
     })
 
-    it('Renders the main page', () => {
+    it('dummy test template', () => {
         render(<App />)
         const text = screen.getByText('teste')
         expect(text).toBeTruthy()
